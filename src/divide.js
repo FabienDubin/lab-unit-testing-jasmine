@@ -4,9 +4,8 @@ function divide(numOne, numTwo) {
     typeof numTwo !== "number" ||
     numOne == undefined ||
     numTwo == undefined
-  ) {
+  )
     return undefined;
-  }
 
   return numOne / numTwo;
 }
